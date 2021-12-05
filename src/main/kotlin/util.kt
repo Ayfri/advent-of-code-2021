@@ -1,1 +1,1 @@
-fun getTxtFile(fileName: String) = (object : Any() {})::class.java.getResource(fileName).readText()
+fun readFile(fileName: String) = object {}.javaClass.getResource(fileName).readText()
